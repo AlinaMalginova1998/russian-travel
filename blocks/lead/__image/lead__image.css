@@ -1,8 +1,8 @@
 .lead__image {
-    background-image: url("../../../images/lead-pic.jpg");
     background-size: cover;
-    width: 984px;
-    height: 615px;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
     position: relative;
     margin-bottom: 8px;
 }

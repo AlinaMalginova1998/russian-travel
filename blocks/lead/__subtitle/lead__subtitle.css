@@ -9,3 +9,26 @@
     color: white;
     max-width: 640px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
+
+/* 640px - ширина подзаголовка исходная */
+@media screen and (max-width: 640px) {
+    .lead__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 94%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 40px;
+    }
+}
