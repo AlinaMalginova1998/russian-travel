@@ -5,17 +5,23 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 1.63;
     color: #ffffff;
-    margin-bottom: 26px;
+    margin-bottom: 27px;
 }
 
 .place__paragraph:last-of-type {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1025px){
     .place__paragraph {
-        font-size: 16px;
+        font-size: calc(16px + 2 * ((100vw - 768px) / (1024 - 768)));
+    }
+}
+
+@media screen and (max-width: 769px){
+    .place__paragraph {
+        margin-bottom: 25px;
     }
 }
