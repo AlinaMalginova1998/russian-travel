@@ -7,6 +7,12 @@
     font-size: 72px;
     line-height: 1.06;
     color: white;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 850px) {

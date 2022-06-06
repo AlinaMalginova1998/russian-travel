@@ -9,12 +9,17 @@
   text-align: center;
   color: #ffffff;
   max-width: 360px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     max-width: calc(288px + 72 * (100vw - 320px) / (768 - 320));
-    font-size: calc(16px + 2 * (100vw - 320px) / (768 - 320));
-    line-height: 1.13;
+    font-size: calc(14px + 4 * (100vw - 320px) / (768 - 320));
+    line-height: 1.14;
   }
 }
