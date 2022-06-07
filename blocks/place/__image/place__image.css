@@ -8,6 +8,7 @@
     .place__image {
         width: 100vw;
         position: relative;
-        left: calc((16px + 8 * ((100vw - 425px) / (768 - 425))) * (-1));
+        left: calc((16px + 8 * ((100vw - 320px) / (768 - 320))) * (-1));
     }
 }
+

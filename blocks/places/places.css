@@ -1,11 +1,7 @@
 .places {
-    padding: 0 calc(50px + 10 * ((100vw - 1280px) / (1440 - 1280))) 0;
-}
-
-@media screen and (min-width: 1281px) {
-    .places {
-        padding: 0 calc(148px + 52 * ((100vw - 1280px) / (1440 - 1280))) 0;
-    }
+    max-width: 1280px;
+    margin-bottom: 92px;
+    padding: 0 148px 0;
 }
 
 @media screen and (max-width: 1280px) {
@@ -23,12 +19,12 @@
 @media screen and (max-width: 769px) {
     .places {
         margin-bottom: 73px;
-        padding: 0 calc(16px + 8 * ((100vw - 425px) / (768 - 425))) 0;
+        padding: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320))) 0;
     }
 }
 
 @media screen and (max-width: 450px) {
     .places {
-        margin-bottom: 50px;
+        margin-bottom: 66px;
     }
 } 

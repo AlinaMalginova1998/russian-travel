@@ -2,7 +2,7 @@
     margin: 0 0 64px;
     padding: 0;
     text-align: center;
-    font-family: 'Inter';
+    font-family: "Inter", Arial, sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.2;
@@ -12,6 +12,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    max-width: 640px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,8 +23,9 @@
 
 @media screen and (max-width: 767px) {
     .lead__subtitle {
-      font-size: calc(16px + 14 * ((100vw - 320px) / 425));
+      font-size: calc(16px + 14 * ((100vw - 320px) / (768 - 320)));
       line-height: 1.25;
+      max-width: calc(288px + 432 * (100vw - 320px) / (768 - 320));
     }
 }
 

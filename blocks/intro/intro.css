@@ -1,38 +1,32 @@
 .intro {
     max-width: 690px;
-    margin: 0 0 92px;
+    padding-left: 148px;
     overflow-x: hidden;
-}
-
-@media screen and (min-width: 1280px) {
-    .intro {
-        margin-left: calc(148px + 52 * ((100vw - 1280px) / (1440 - 1280)));
-    }
+    margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1281px) {
     .intro {
-        margin-left: calc(48px + 100 * ((100vw - 1024px) / (1280 - 1024)));
+        padding-left: calc(48px + 100 * ((100vw - 1024px) / (1280 - 1024)));
     }
 }
 
 @media screen and (max-width: 1025px) {
     .intro {
         max-width: 100%;
-        margin: 0 calc(16px + 32 * ((100vw - 320px) / (1024 - 320))) 64px;
+        padding: 0 calc(24px + 24 * ((100vw - 768px) / (1024 - 768))) 0;
     }
 }
 
-@media screen and (max-width: 769) {
+@media screen and (max-width: 769px) {
     .intro {
-        max-width: 100%;
         margin-bottom: 88px;
+        padding: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320))) 0;
     }
 }
 
-@media screen and (max-width: 426) {
+@media screen and (max-width: 426px) {
     .intro {
-        max-width: 100%;
-        margin-bottom: 64px;
+        margin-bottom: 62px;
     }
 }
