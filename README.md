@@ -14,3 +14,7 @@
 - Реализована адаптивная и резиновая верстка
 - К странице локально подключен шрифт "Inter"
 - Шрифты оптимизированы под устройства с разными разрешениями
+
+### Ссылка 
+https://alinamalginova1998.github.io/russian-travel/
+https://alinamalginova1998.github.io/russian-travel/index.html
