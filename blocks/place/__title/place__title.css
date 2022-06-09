@@ -13,13 +13,11 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-
-    
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
     .place__title {
-      font-size: calc(42px + 30 * ((100vw - 768px) / (850 - 768)));
+      font-size: calc(42px + 30 * ((100vw - 768px) / (1024 - 768)));
       line-height: 1.1;
     }
   }
@@ -28,5 +26,11 @@
     .place__title {
         font-size: calc(32px + 10 * ((100vw - 320px) / (768 - 320)));
         line-height: 1.09;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .place__title {
+        margin: 0 calc(16px + 4 * ((100vw - 320px) / (600 - 320)))0 ;
     }
 }

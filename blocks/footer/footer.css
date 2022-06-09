@@ -16,6 +16,12 @@
     .footer {
         flex-direction: column;
         align-items: flex-start;
-        margin: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320))) 24px;
+        margin: 0 calc(20px + 4 * ((100vw - 600px) / (750 - 600))) 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin: 0 calc(16px + 4 * ((100vw - 320px) / (600 - 320))) 24px;
     }
 }

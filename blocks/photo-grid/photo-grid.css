@@ -25,7 +25,13 @@
     .photo-grid {
         margin-bottom: 88px;
         grid-template-columns: repeat(2, 1fr);
-        padding: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320))) 0;
+        padding: 0 calc(20px + 4 * ((100vw - 600px) / (768 - 600))) 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .photo-grid {
+        padding: 0 calc(16px + 4 * ((100vw - 320px) / (600 - 320))) 0;
     }
 }
 

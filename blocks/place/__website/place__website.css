@@ -6,3 +6,9 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
+
+@media screen and (max-width: 601px) {
+    .place__website {
+        margin: 0 calc(16px + 4 * ((100vw - 320px) / (600 - 320))) 0;
+    }
+}

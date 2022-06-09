@@ -21,7 +21,13 @@
 @media screen and (max-width: 769px) {
     .intro {
         margin-bottom: 88px;
-        padding: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320))) 0;
+        padding: 0 calc(20px + 4 * ((100vw - 600px) / (768 - 600))) 0;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .intro {
+        padding: 0 calc(16px + 4 * ((100vw - 320px) / (600 - 320))) 0;
     }
 }
 
