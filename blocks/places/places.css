@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1025px) {
     .places {
+        max-width: 100vw;
         padding: 0 calc(24px + 24 * ((100vw - 768px) / (1024 - 768))) 0;
     }
 }
